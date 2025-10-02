@@ -13,6 +13,26 @@ data/
 reports/
 outputs/
 
+# Ignorar estas carpetas en cualquier nivel
+**/data/**
+**/outputs/**
+**/templates/**
+
+# Ignorar también tipos de datos por si aparecen fuera
+*.xlsx
+*.xls
+*.csv
+*.parquet
+*.sav
+*.dta
+*.pdf
+*.pptx
+
+# Permitir mantener vacías las carpetas con .gitkeep
+!**/data/.gitkeep
+!**/outputs/.gitkeep
+!**/templates/.gitkeep
+
 # User-specific files
 *.rsuser
 *.suo
