@@ -3,6 +3,16 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Data y artefactos
+data/
+**/*.xlsx
+**/*.xlsm
+**/*.xls
+**/*.csv
+**/*.parquet
+reports/
+outputs/
+
 # User-specific files
 *.rsuser
 *.suo
