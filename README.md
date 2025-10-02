@@ -1,4 +1,4 @@
-# automated-reports
+# Automated Reports
 This repository contains my production-grade Python workflows for automated reporting.
 It includes reusable pipelines to extract, validate, and transform data, generate
 reports (tables, charts, and PDFs/HTML), and deliver them via email or Slack on
