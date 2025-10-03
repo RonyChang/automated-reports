@@ -13,6 +13,8 @@ data/
 reports/
 outputs/
 
+**/config/config.yaml
+
 # Ignorar estas carpetas en cualquier nivel
 **/data/**
 **/outputs/**
