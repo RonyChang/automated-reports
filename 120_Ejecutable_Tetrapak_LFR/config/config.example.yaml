@@ -1,0 +1,14 @@
+## Configuration file for the report generation
+
+# Preprocessing input file, template file, and output file names
+file_in: "data_in.xlsx"
+file_template: "data_template.xlsx"
+file_out: "data_out.xlsx"
+
+# Report parameters
+name: "Report (Client X)"
+period: "3C"
+differences:
+  - ["Y2024", "Y2025"]
+  - ["2C'25", "3C'25"]
+  - ["3C'24", "3C'25"]
